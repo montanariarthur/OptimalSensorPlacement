@@ -11,8 +11,6 @@ Please, refer to this paper for further details. The codes syntax were adjusted 
 
 The following codes are direct implementations of the minimum sensor placement algorithm applied in Section 8.1.
 
-README - This file
-
 - `coef_obsv.m`	: Computes the coefficient of observability of a pair (A,C).
 
 - `greedysensorplac.m` : Optimal sensor placement based on a greedy algorithm and the coefficient of observability computed in `coef_obsv.m`.
